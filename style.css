@@ -7,10 +7,10 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=0ca5cac8dc&attid=0.1.1&permmsgid=msg-f:1764266720852454431&th=187bef3c31742c1f&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9XBS4TCND9o6HQVx9LygskFj3h52UndDQvVi4fPCGFitqisXZ1JEmazuPHGJAcYNsQZ7_ORGXVE9JG-_AZl1rmzo1NMTrjnaRCrC7xTVYES42AWJ-jq_RKK8A&disp=emb);
+    /* background: url("Youth_Block_Party_2022-159.JPEG"); */
     background-position: center;
     background-size: cover;
-   
+    /* https://mail.google.com/mail/u/0?ui=2&ik=0ca5cac8dc&attid=0.1.1&permmsgid=msg-f:1764266720852454431&th=187bef3c31742c1f&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9XBS4TCND9o6HQVx9LygskFj3h52UndDQvVi4fPCGFitqisXZ1JEmazuPHGJAcYNsQZ7_ORGXVE9JG-_AZl1rmzo1NMTrjnaRCrC7xTVYES42AWJ-jq_RKK8A&disp=emb */
 }
 nav{
     display: flex;
@@ -188,7 +188,13 @@ button:hover{
     margin: 30px auto;
     text-align: center;
 }
-
+.title h1{
+    color: #808080;
+    font-size: 25px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
 .box{
     display: flex;
     justify-content: center;
@@ -264,4 +270,19 @@ homeBtn{
     padding: 13px 30px;
     border-radius: 30px;
     transition: .5s;
+}
+
+.style{
+    background-image: url('Youth_Block_Party_2022-159.JPEG');
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+.recognition h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
